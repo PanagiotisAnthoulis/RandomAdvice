@@ -5,14 +5,13 @@
 
 body{
     background-color: rgb(250, 247, 200);
+    overflow:hidden;
+    width:100%;
 }
 
-.nav{
-    
+.nav1{
+    min-width:100%;
     background-color: rgb(224, 173, 97);
-    padding-top:1%;    
-    padding-bottom:1%;    
-    font-size:3vh;
 }
 
 #advice_div{
@@ -21,28 +20,25 @@ body{
     width:fit-content;
 }
 
-#your{
-    font-size:2vh;
-}
-
 #advice{
     font-size:4vh;
-    
+    word-wrap: break-word;
 }
 
 .butt{
     transition:1s;
     display:block;
     margin:auto;
-    margin-top:5%;
-    padding-left:5%;
-    padding-right:5%;
-    padding-top:5%;
-    padding-bottom:5%;
-    font-size:5vh;
+    margin-top:3%;
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:3%;
+    padding-bottom:3%;
+    font-size:4vh;
     background-color: darkred;
     color:white;
-    width:40%;
+    min-width:30%;
+    min-width:30%;
     
 }
 

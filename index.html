@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style='height:100%;' lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,9 @@
     <title>Random Advice</title>
 </head>
 
-<body>
-    <div style='background-color: rgb(224, 173, 97);color:white;' class="text-center">
+<body style='height:100%;'>
+<div style='height:90%;'>
+    <div style='background-color: rgb(224, 173, 97);color:white;' class="w-auto text-center">
             <h2>Random Advice</h2>
             <h4>by Panagiotis Anthoulis</h4>
     </div>
@@ -19,17 +20,21 @@
     <div class="search">
         <input type="text" id="input" >
         
-        <button class='rounded' style='background-color: rgb(224, 173, 97);color:white;' id="search" onclick='search(document.getElementById("input").value)'>Search Advice</button>
+        <button class='mx-auto rounded' style='background-color: rgb(224, 173, 97);color:white;' id="search" onclick='search(document.getElementById("input").value)'>Search Advice</button>
     </div>
 
     <button class="butt" onclick='gen()'>I NEED ADVICE</button>
-    <div id="advice_div">
+    <div style="max-width:95%;" id="advice_div">
         <span id='your'>Your advice is:</span>
         <br>
         <span id="advice"></span>
     </div>
-
-  
-
+</div>
+    <div style='height:10%; background-color: rgb(224, 173, 97);color:white;'>
+        <div class='pt-2 w-50 mx-auto d-flex justify-content-between'>
+            <img onclick='window.location="https://github.com/PanagiotisAnthoulis"' onmouseout="this.style.filter='invert(100%)'" onmouseover="this.style.filter='invert(0%)'" style="filter:invert(100%);" src='GitHub-Mark-64px.png'>
+            <img onclick='window.location="https://www.youtube.com/channel/UCs2Z9-3vb7JnZYnMBtdFFXw?view_as=subscriber"' onmouseout="this.style.filter='invert(100%)'" onmouseover="this.style.filter='invert(0%)'" style="filter:invert(100%); width:64px;" src='youtube_icon.png'>
+        </div>
+    </div>
 </body>
 </html>
