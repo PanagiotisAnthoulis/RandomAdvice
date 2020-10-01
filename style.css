@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+
+body{
+    background-color: rgb(250, 247, 200);
+}
+
+.nav{
+    
+    background-color: rgb(224, 173, 97);
+    padding-top:1%;    
+    padding-bottom:1%;    
+    font-size:3vh;
+}
+
+#advice_div{
+    margin:auto;
+    margin-top:4%;
+    width:fit-content;
+}
+
+#your{
+    font-size:2vh;
+}
+
+#advice{
+    font-size:4vh;
+    
+}
+
+.butt{
+    transition:1s;
+    display:block;
+    margin:auto;
+    margin-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-size:5vh;
+    background-color: darkred;
+    color:white;
+    width:40%;
+    
+}
+
+.search{
+    width:fit-content;
+    margin:auto;
+    margin-top:3%;
+}
+
+.butt:hover{
+    transition:1s;
+    color: black;
+    text-shadow: mediumspringgreen;
+    
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='jquery-3.4.1.min.js'></script>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='style.css'/>
+    <title>Random Advice</title>
+</head>
+
+<body>
+    <div style='background-color: rgb(224, 173, 97);color:white;' class="text-center">
+            <h2>Random Advice</h2>
+            <h4>by Panagiotis Anthoulis</h4>
+    </div>
+
+    <div class="search">
+        <input type="text" id="input" >
+        
+        <button class='rounded' style='background-color: rgb(224, 173, 97);color:white;' id="search" onclick='search(document.getElementById("input").value)'>Search Advice</button>
+    </div>
+
+    <button class="butt" onclick='gen()'>I NEED ADVICE</button>
+    <div id="advice_div">
+        <span id='your'>Your advice is:</span>
+        <br>
+        <span id="advice"></span>
+    </div>
+
+  
+
+</body>
+</html>
